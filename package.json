@@ -1,0 +1,28 @@
+{
+  "name": "RomanNumerals",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@9.1.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test src/node.test.js",
+    "vitest": "vitest run vitest",
+    "coverage": "vitest run --coverage",
+    "vitest:ui": "vitest ui",
+    "check": "biome check --apply ./"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.1",
+    "@types/node": "^20.14.5",
+    "@vitest/coverage-istanbul": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0",
+    "@vitest/ui": "^1.6.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
