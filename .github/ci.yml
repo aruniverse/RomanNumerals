@@ -1,4 +1,4 @@
-name: Roman Numerals
+name: Roman Numerals CI
 
 on:
   push:
@@ -38,4 +38,4 @@ jobs:
         with:
           version: latest
       - name: Run Biome
-        run: biome ci .
+        run: biome ci . --reporter=github
