@@ -1,5 +1,8 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
+  "files": {
+    "ignore": ["./tests"]
+  },
   "organizeImports": {
     "enabled": true
   },
@@ -27,7 +30,7 @@
       "jsxQuoteStyle": "double",
       "quoteProperties": "asNeeded",
       "semicolons": "always",
-      "trailingComma": "all"
+      "trailingCommas": "all"
     }
   },
   "json": {

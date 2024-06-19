@@ -14,7 +14,8 @@
     "vitest": "vitest run vitest",
     "coverage": "vitest run --coverage",
     "vitest:ui": "vitest ui",
-    "check": "biome check --apply ./"
+    "check": "biome check ./",
+    "write": "biome check --write ./"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.1",
