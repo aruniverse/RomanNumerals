@@ -5,3 +5,6 @@ describe("vitest", () => {
     console.log("Test passed");
   });
 });
+
+// An entry will be shown in the report for this suite
+describe.todo('unimplemented suite')
